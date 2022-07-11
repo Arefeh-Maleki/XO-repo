@@ -1,5 +1,5 @@
 # XO-repo
-# XO game
+## XO game
 
 use **A**, **D**, **W** and **S** to move your cursor and **P** to choose.
 | key| direction|
