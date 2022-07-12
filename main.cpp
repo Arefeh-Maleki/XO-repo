@@ -9,12 +9,8 @@ vector<vector<char>> table = {{'-', '-', '-'},
                               {'-', '-', '-'},
                               {'-', '-', '-'}};
 
-void clear() {
-    cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
-}
-
 void printTable() {
-    clear();
+    system("cls");
     for (int row = 0; row < table.size(); row++) {
         for (int col = 0; col < table[row].size(); col++) {
             if (row == pointerRow && col == pointerCol && table[row][col] == '-') {
