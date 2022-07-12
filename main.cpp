@@ -9,6 +9,7 @@ vector<vector<char>> table = {{'-', '-', '-'},
                               {'-', '-', '-'},
                               {'-', '-', '-'}};
 
+//testing 1 player game branch
 void printTable() {
     system("cls");
     for (int row = 0; row < table.size(); row++) {
